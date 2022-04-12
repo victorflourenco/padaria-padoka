@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;0,700;1,100;1,200&family=Poppins:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Josefin+Sans:ital,wght@0,200;0,400;0,700;1,100;1,200&family=Poppins:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Josefin+Sans:ital,wght@0,200;0,400;0,700;1,100;1,200&family=Poppins:wght@100&display=swap');
+
+* {
+
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Poppins', cursive;
+	font-weight: bold;
+	color: chocolate;
+}
+
+label {
+	font-family: 'Poppins', cursive;
+	font-weight: bold;
+	color: chocolate;
+}
+
+::selection {
+	color: blanchedalmond;
+	background-color: gray;
+}
+
+.menu-principal {
+	height: 150px;
+	background-color: #333;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;	
+	border-bottom: brown 4px solid;
+}
+
+#logo-menu-principal {
+	position: fixed;
+	height: 100px;
+	position: absolute;
+	top: 20px;
+	left: 225px;
+	border-radius: 50%;
+}
+
+#logo-menu-principal2 {
+	height: 100px;
+	position: absolute;
+	top: 20px;
+	left: 1500px;
+	border-radius: 10px;
+}
+
+#logo-menu-principal:hover {
+	opacity: 0.5;
+}
+
+h3 {
+	font-family:  'Poppins', sans-serif;
+}
+
+nav > h3{
+	height: 100px;
+	position: absolute;
+	top: 120px;
+	left: 280px;
+	font-weight: 400px;
+
+	color: coral;
+}
+
+.menu {
+	display: flex;
+	gap: 32px;
+	
+}
+
+.menu > input[type="text"] {
+	position: relative;
+	top: -5px;
+	border: none;
+	border: 2px solid  antiquewhite;
+	border-radius: 50px;
+	background-image: url('https://www.w3schools.com/howto/searchicon.png');
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	padding: 12px 20px 12px 40px;
+}
+
+.menu-item {
+	font-family: 'Sarala', sans-serif;
+	font-weight: 400;
+    font-size: 18px;
+    color: orange;
+}
+
+.menu-item:hover {
+	border-bottom: #ff0000 3px solid;
+}
+
+.container {
+	display: flex;
+	margin-left: 25%;
+}
+
+.container #form input {
+	margin-top: 10px;
+	border-color: #333;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.container #form textarea {
+	margin-top: 10px;
+}
+
+.container section {
+	margin-left: 25%;
+	font-family: 'Poppins', cursive;
+	color: chocolate;
+	font-weight: bold;
+}
+
+.container  #form button{
+	width:200px;
+	height:30px;
+	font-size:20px;
+	color: #fff;
+	background:  green;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 5px 0 #006000;
+	
+  }
+
+  .container  #form button:active {
+	  position: relative;
+	  top: 2px;
+  }
+
+  .container  #form button:hover{
+	  background: #006000;
+	  box-shadow: 0 5px 0 #006000;
+  }
+
+  .container #form h1 {
+	  border-bottom: gray solid 1px;
+  }
+
+
+
+  iframe {
+	width: 100%;
+      height: 500px;
+  }
+.footer2{
+	position: fixed;
+	font-family: 'Poppins', cursive;
+	background-color: #333;
+	font-weight: normal;
+	color: #fff;	
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 200px;
+
+}
+
+.footer2 div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer2 .redesSociais img {
+	margin-top: 10px;
+	height: 25px;
+	
+}
+
+.footer2 p:hover {
+	color: orange;
+}
+
+.footer2 .final:hover {
+	color: orange;
+}
+
+.footer2 .redesSociais img:not(:last-child){
+	margin-right: 10px;
+}
+
+.footer2 .redesSociais img:hover {
+	opacity: 0.5;
+}
