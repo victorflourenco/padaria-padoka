@@ -1,0 +1,46 @@
+body {
+    background-image: url('../imagens/fundo.jpg');
+    background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+#logo-menu-principal {
+	position: fixed;
+	height: 100px;
+	position: absolute;
+	top: 60px;
+	left: 5px;
+	border-radius: 50%;
+}
+
+
+.fundo {
+    background-color: rgb(51, 51, 51);
+}
+
+#logo-menu-principal:hover {
+	opacity: 0.5;
+}
+
+h1{
+    color: antiquewhite;
+}
+
+p{
+    color: antiquewhite;
+}
+
+.minhaCor {
+    color: white;
+}
+
+ td {
+    color: black !important;
+    font-weight: bold !important;
+   
+}
+
+label {
+    color: black !important;
+    font-weight: bold !important;
+}
